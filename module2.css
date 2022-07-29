@@ -1,0 +1,232 @@
+* {
+    margin: 0%;
+}
+
+#mainhead {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#div0 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#div1 {
+    background: gray;
+    border: 2px solid black;
+    padding: 4px;
+    width: 33%;
+    float: left;
+    margin: 15px;
+}
+
+#div2 {
+    background: gray;
+    border: 2px solid black;
+    padding: 4px;
+    width: 33%;
+    float: left;
+    margin: 15px;
+}
+
+#div3 {
+    background: gray;
+    border: 2px solid black;
+    padding: 4px;
+    width: 33%;
+    float: left;
+    margin: 15px;
+}
+
+#head1 {
+    background: pink;
+    border: 2px solid red;
+    width: 40%;
+    padding: 3px;
+    float: right;
+
+}
+
+#head2 {
+    background: rgb(106, 234, 234);
+    border: 2px solid red;
+    width: 40%;
+    padding: 3px;
+    float: right;
+}
+
+#head3 {
+    background: rgb(166, 121, 235);
+    border: 2px solid red;
+    width: 40%;
+    padding: 3px;
+    float: right;
+}
+
+p {
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#div0 {
+    margin-top: 100px;
+}
+
+@media (min-width: 992px) {
+    #mainhead {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #div0 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #div1 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 33%;
+        float: left;
+        margin: 15px;
+    }
+
+    #div2 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 33%;
+        float: left;
+        margin: 15px;
+    }
+
+    #div3 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 33%;
+        float: left;
+        margin: 15px;
+    }
+
+    #head1 {
+        background: pink;
+        border: 2px solid red;
+        width: 40%;
+        padding: 3px;
+        float: right;
+
+    }
+
+    #head2 {
+        background: rgb(106, 234, 234);
+        border: 2px solid red;
+        width: 40%;
+        padding: 3px;
+        float: right;
+    }
+
+    #head3 {
+        background: rgb(166, 121, 235);
+        border: 2px solid red;
+        width: 40%;
+        padding: 3px;
+        float: right;
+    }
+
+    p {
+        margin-top: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #div0 {
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #div1 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 50%;
+        float: left;
+        margin: 15px;
+    }
+
+    #div2 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 50%;
+        float: left;
+        margin: 15px;
+
+    }
+
+    #div3 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+
+        margin: 15px;
+        position: absolute;
+        top: 325px;
+        width: 95%;
+
+    }
+
+    #head3 {
+        width: 25%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #div0{
+        margin-top: 60px;
+        
+    }
+
+    #div1 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 95%;
+        margin: 25px;
+        position: absolute;
+        
+    }
+    
+    #div2 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 95%;
+        
+        position: absolute;
+        top: 300px;
+        margin: 25px;
+        
+        
+    }
+    
+    #div3 {
+        background: gray;
+        border: 2px solid black;
+        padding: 4px;
+        width: 95%;
+        position: absolute;
+        top: 480px;
+        margin: 25px;
+        
+        
+    }
+    
+    
+}
